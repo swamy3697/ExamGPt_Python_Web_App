@@ -5,7 +5,7 @@ def get_openai_response(prompt,api_key):
     try:
         openai.api_key = api_key
         response = openai.Completion.create(
-            engine="text-davinci-003",  # You can change the engine if needed
+            engine="text-davinci-003", 
             prompt=prompt,
             max_tokens=150,
             n=1,
@@ -14,7 +14,7 @@ def get_openai_response(prompt,api_key):
         )
         return response.choices[0].text.strip()
     except Exception as e:
-        # Log the exception for debugging
+       
         st.error(f"An error occurred: {e}")
         return "API key is not working."
 

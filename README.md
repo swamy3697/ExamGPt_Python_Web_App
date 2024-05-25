@@ -1,46 +1,38 @@
-# ExamGPT - Streamlit Chatbot Application
+# ExamGPT Python Web Application
 
-This is a simple chatbot application built using Streamlit and OpenAI's GPT-3 model.
+This is a simple chatbot web application built using Streamlit and OpenAI's GPT-3 model.
 
 ## Installation
-
-1. Install Streamlit using pip:
-
-    ```
-    pip install streamlit
-    ```
-
-2. Install the OpenAI Python library:
-
-    ```
-    pip install openai
-    ```
-
-## Usage
 
 1. Clone this repository to your local machine:
 
     ```
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/swamy3697/ExamGPt_Python_Web_App.git
     ```
 
 2. Navigate to the project directory:
 
     ```
-    cd your-repo
+    cd ExamGPt_Python_Web_App
     ```
 
-3. Run the Streamlit app:
+3. Install the required Python packages using pip:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Replace the placeholder API key in `chatBot1.py` with your actual OpenAI API key.
+
+2. Run the Streamlit app:
 
     ```
     streamlit run chatBot1.py
     ```
 
-4. Open a web browser and go to the URL provided by Streamlit to interact with the chatbot.
-
-## Configuration
-
-Before running the application, make sure to replace the placeholder API key in `chatBot1.py` with your actual OpenAI API key.
+3. Open a web browser and go to the URL provided by Streamlit to interact with the chatbot.
 
 ## Feedback
 

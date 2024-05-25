@@ -24,12 +24,12 @@ This is a simple chatbot web application built using Streamlit and OpenAI's GPT-
 
 ## Usage
 
-1. Replace the placeholder API key in `chatBot1.py` with your actual OpenAI API key.
+1. Replace the placeholder API key in `ExamGPT.py` with your actual OpenAI API key.
 
 2. Run the Streamlit app:
 
     ```
-    streamlit run chatBot1.py
+    streamlit run ExamGPT.py
     ```
 
 3. Open a web browser and go to the URL provided by Streamlit to interact with the chatbot.
